@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		964058C11948CF24000954A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964058C01948CF24000954A1 /* main.m */; };
+		964058C41948CF24000954A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964058C31948CF24000954A1 /* AppDelegate.m */; };
+		964058C71948CF24000954A1 /* Bull_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 964058C51948CF24000954A1 /* Bull_Game.xcdatamodeld */; };
+		964058CA1948CF24000954A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964058C91948CF24000954A1 /* ViewController.m */; };
+		964058CD1948CF24000954A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964058CB1948CF24000954A1 /* Main.storyboard */; };
+		964058CF1948CF24000954A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964058CE1948CF24000954A1 /* Images.xcassets */; };
+		964058DB1948CF24000954A1 /* Bull_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964058DA1948CF24000954A1 /* Bull_GameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		964058D51948CF24000954A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964058B31948CF24000954A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964058BA1948CF24000954A1;
+			remoteInfo = Bull_Game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		964058BB1948CF24000954A1 /* Bull_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bull_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		964058BF1948CF24000954A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964058C01948CF24000954A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		964058C21948CF24000954A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		964058C31948CF24000954A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		964058C61948CF24000954A1 /* Bull_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bull_Game.xcdatamodel; sourceTree = "<group>"; };
+		964058C81948CF24000954A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		964058C91948CF24000954A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		964058CC1948CF24000954A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		964058CE1948CF24000954A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		964058D41948CF24000954A1 /* Bull_GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bull_GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		964058D91948CF24000954A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964058DA1948CF24000954A1 /* Bull_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bull_GameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		964058B81948CF24000954A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964058D11948CF24000954A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		964058B21948CF24000954A1 = {
+			isa = PBXGroup;
+			children = (
+				964058BD1948CF24000954A1 /* Bull_Game */,
+				964058D71948CF24000954A1 /* Bull_GameTests */,
+				964058BC1948CF24000954A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		964058BC1948CF24000954A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				964058BB1948CF24000954A1 /* Bull_Game.app */,
+				964058D41948CF24000954A1 /* Bull_GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		964058BD1948CF24000954A1 /* Bull_Game */ = {
+			isa = PBXGroup;
+			children = (
+				964058C21948CF24000954A1 /* AppDelegate.h */,
+				964058C31948CF24000954A1 /* AppDelegate.m */,
+				964058C81948CF24000954A1 /* ViewController.h */,
+				964058C91948CF24000954A1 /* ViewController.m */,
+				964058CB1948CF24000954A1 /* Main.storyboard */,
+				964058CE1948CF24000954A1 /* Images.xcassets */,
+				964058C51948CF24000954A1 /* Bull_Game.xcdatamodeld */,
+				964058BE1948CF24000954A1 /* Supporting Files */,
+			);
+			path = Bull_Game;
+			sourceTree = "<group>";
+		};
+		964058BE1948CF24000954A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				964058BF1948CF24000954A1 /* Info.plist */,
+				964058C01948CF24000954A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		964058D71948CF24000954A1 /* Bull_GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				964058DA1948CF24000954A1 /* Bull_GameTests.m */,
+				964058D81948CF24000954A1 /* Supporting Files */,
+			);
+			path = Bull_GameTests;
+			sourceTree = "<group>";
+		};
+		964058D81948CF24000954A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				964058D91948CF24000954A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		964058BA1948CF24000954A1 /* Bull_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964058DE1948CF24000954A1 /* Build configuration list for PBXNativeTarget "Bull_Game" */;
+			buildPhases = (
+				964058B71948CF24000954A1 /* Sources */,
+				964058B81948CF24000954A1 /* Frameworks */,
+				964058B91948CF24000954A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bull_Game;
+			productName = Bull_Game;
+			productReference = 964058BB1948CF24000954A1 /* Bull_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		964058D31948CF24000954A1 /* Bull_GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964058E11948CF24000954A1 /* Build configuration list for PBXNativeTarget "Bull_GameTests" */;
+			buildPhases = (
+				964058D01948CF24000954A1 /* Sources */,
+				964058D11948CF24000954A1 /* Frameworks */,
+				964058D21948CF24000954A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				964058D61948CF24000954A1 /* PBXTargetDependency */,
+			);
+			name = Bull_GameTests;
+			productName = Bull_GameTests;
+			productReference = 964058D41948CF24000954A1 /* Bull_GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		964058B31948CF24000954A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Stevenson University";
+				TargetAttributes = {
+					964058BA1948CF24000954A1 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					964058D31948CF24000954A1 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 964058BA1948CF24000954A1;
+					};
+				};
+			};
+			buildConfigurationList = 964058B61948CF24000954A1 /* Build configuration list for PBXProject "Bull_Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 964058B21948CF24000954A1;
+			productRefGroup = 964058BC1948CF24000954A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964058BA1948CF24000954A1 /* Bull_Game */,
+				964058D31948CF24000954A1 /* Bull_GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		964058B91948CF24000954A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964058CD1948CF24000954A1 /* Main.storyboard in Resources */,
+				964058CF1948CF24000954A1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964058D21948CF24000954A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		964058B71948CF24000954A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964058C41948CF24000954A1 /* AppDelegate.m in Sources */,
+				964058C71948CF24000954A1 /* Bull_Game.xcdatamodeld in Sources */,
+				964058CA1948CF24000954A1 /* ViewController.m in Sources */,
+				964058C11948CF24000954A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964058D01948CF24000954A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964058DB1948CF24000954A1 /* Bull_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		964058D61948CF24000954A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964058BA1948CF24000954A1 /* Bull_Game */;
+			targetProxy = 964058D51948CF24000954A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		964058CB1948CF24000954A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964058CC1948CF24000954A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		964058DC1948CF24000954A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		964058DD1948CF24000954A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		964058DF1948CF24000954A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Bull_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		964058E01948CF24000954A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Bull_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		964058E21948CF24000954A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bull_Game.app/Bull_Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Bull_GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		964058E31948CF24000954A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bull_Game.app/Bull_Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Bull_GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		964058B61948CF24000954A1 /* Build configuration list for PBXProject "Bull_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964058DC1948CF24000954A1 /* Debug */,
+				964058DD1948CF24000954A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964058DE1948CF24000954A1 /* Build configuration list for PBXNativeTarget "Bull_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964058DF1948CF24000954A1 /* Debug */,
+				964058E01948CF24000954A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		964058E11948CF24000954A1 /* Build configuration list for PBXNativeTarget "Bull_GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964058E21948CF24000954A1 /* Debug */,
+				964058E31948CF24000954A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		964058C51948CF24000954A1 /* Bull_Game.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				964058C61948CF24000954A1 /* Bull_Game.xcdatamodel */,
+			);
+			currentVersion = 964058C61948CF24000954A1 /* Bull_Game.xcdatamodel */;
+			path = Bull_Game.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 964058B31948CF24000954A1 /* Project object */;
+}
