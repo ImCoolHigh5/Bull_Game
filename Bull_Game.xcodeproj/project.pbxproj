@@ -14,6 +14,9 @@
 		964058CD1948CF24000954A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964058CB1948CF24000954A1 /* Main.storyboard */; };
 		964058CF1948CF24000954A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964058CE1948CF24000954A1 /* Images.xcassets */; };
 		964058DB1948CF24000954A1 /* Bull_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964058DA1948CF24000954A1 /* Bull_GameTests.m */; };
+		964058E61948D0CA000954A1 /* BULLPokerDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964058E51948D0CA000954A1 /* BULLPokerDataController.m */; };
+		964058E91948D0E5000954A1 /* BULLHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 964058E81948D0E5000954A1 /* BULLHand.m */; };
+		964058F01948D242000954A1 /* BULLCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 964058EF1948D242000954A1 /* BULLCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,13 @@
 		964058D41948CF24000954A1 /* Bull_GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bull_GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964058D91948CF24000954A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964058DA1948CF24000954A1 /* Bull_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bull_GameTests.m; sourceTree = "<group>"; };
+		964058E41948D0CA000954A1 /* BULLPokerDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BULLPokerDataController.h; sourceTree = "<group>"; };
+		964058E51948D0CA000954A1 /* BULLPokerDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BULLPokerDataController.m; sourceTree = "<group>"; };
+		964058E71948D0E5000954A1 /* BULLHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BULLHand.h; path = ../BULLHand.h; sourceTree = "<group>"; };
+		964058E81948D0E5000954A1 /* BULLHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BULLHand.m; path = ../BULLHand.m; sourceTree = "<group>"; };
+		964058ED1948D17E000954A1 /* Bull-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bull-Prefix.pch"; sourceTree = "<group>"; };
+		964058EE1948D242000954A1 /* BULLCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BULLCard.h; sourceTree = "<group>"; };
+		964058EF1948D242000954A1 /* BULLCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BULLCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +93,9 @@
 			children = (
 				964058C21948CF24000954A1 /* AppDelegate.h */,
 				964058C31948CF24000954A1 /* AppDelegate.m */,
-				964058C81948CF24000954A1 /* ViewController.h */,
-				964058C91948CF24000954A1 /* ViewController.m */,
-				964058CB1948CF24000954A1 /* Main.storyboard */,
+				964058EC1948D12D000954A1 /* Models */,
+				964058EB1948D123000954A1 /* Controllers */,
+				964058EA1948D10C000954A1 /* Views */,
 				964058CE1948CF24000954A1 /* Images.xcassets */,
 				964058C51948CF24000954A1 /* Bull_Game.xcdatamodeld */,
 				964058BE1948CF24000954A1 /* Supporting Files */,
@@ -96,6 +106,7 @@
 		964058BE1948CF24000954A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				964058ED1948D17E000954A1 /* Bull-Prefix.pch */,
 				964058BF1948CF24000954A1 /* Info.plist */,
 				964058C01948CF24000954A1 /* main.m */,
 			);
@@ -117,6 +128,36 @@
 				964058D91948CF24000954A1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		964058EA1948D10C000954A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				964058C81948CF24000954A1 /* ViewController.h */,
+				964058C91948CF24000954A1 /* ViewController.m */,
+				964058CB1948CF24000954A1 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		964058EB1948D123000954A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				964058E41948D0CA000954A1 /* BULLPokerDataController.h */,
+				964058E51948D0CA000954A1 /* BULLPokerDataController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		964058EC1948D12D000954A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				964058E71948D0E5000954A1 /* BULLHand.h */,
+				964058E81948D0E5000954A1 /* BULLHand.m */,
+				964058EE1948D242000954A1 /* BULLCard.h */,
+				964058EF1948D242000954A1 /* BULLCard.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				964058C41948CF24000954A1 /* AppDelegate.m in Sources */,
+				964058E91948D0E5000954A1 /* BULLHand.m in Sources */,
 				964058C71948CF24000954A1 /* Bull_Game.xcdatamodeld in Sources */,
+				964058E61948D0CA000954A1 /* BULLPokerDataController.m in Sources */,
+				964058F01948D242000954A1 /* BULLCard.m in Sources */,
 				964058CA1948CF24000954A1 /* ViewController.m in Sources */,
 				964058C11948CF24000954A1 /* main.m in Sources */,
 			);

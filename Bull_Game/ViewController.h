@@ -10,6 +10,27 @@
 
 @interface ViewController : UIViewController
 
+#pragma mark - IBOutlets
+
+@property (strong, nonatomic) IBOutlet UIButton *exchangeButton;
+@property (strong, nonatomic) IBOutlet UIButton *handCard1Button;
+@property (strong, nonatomic) IBOutlet UIButton *handCard2Button;
+@property (strong, nonatomic) IBOutlet UIButton *handCard3Button;
+@property (strong, nonatomic) IBOutlet UIButton *handCard4Button;
+@property (strong, nonatomic) IBOutlet UIButton *handCard5Button;
+@property (strong, nonatomic) IBOutlet UIButton *drawDeckButton;
+
+#pragma mark - Public Properties
+
+
+#pragma mark - IBActions
+
+- (IBAction)exchangeButtonPressed:(UIButton *)sender;
+
+#pragma mark - Public Methods
+
+
+
 
 @end
 
