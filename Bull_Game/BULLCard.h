@@ -2,28 +2,31 @@
 //  BULLCard.h
 //  Bull_Game
 //
-//  Created by Jason Welch on 6/11/14.
-//  Copyright (c) 2014 Stevenson University. All rights reserved.
+//  Created by Jason Welch and Richard Moffett on 6/11/14.
+//  Copyright (c) 2014 Jason Welch and Richard Moffett. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
+typedef enum
+{
+    Spades,
+    Hearts,
+    Clubs,
+    Diamonds
+} Suit;
+
+#define Ace   1
+#define Jack  11
+#define Queen 12
+#define King  13
+
 @interface BULLCard : NSObject
 
-// Suit stores the suit of the card: Spade, Heart, Club or Diamond
-@property (nonatomic, weak) NSString *suit;
+@property (nonatomic) NSUInteger value;
+@property (nonatomic) Suit suit;
 
-// Value stores the rank of the card.
-// Face value of card 2 - 10
-// Jacks are 11
-// Queens are 12
-// Kings are 13
-// Aces are 14
-@property (nonatomic, weak) NSNumber *value;
-
-// Instance method that returns the string for the card PNG image.
-// Format examples: diamond-2, heart-king, spade-ace ...
-- (NSString*)cardImageName;
+- (id)initWithValue:(NSInteger)value andSuit:(Suit)suit;
 
 @end
 

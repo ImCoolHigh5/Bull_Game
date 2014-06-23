@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EE3738C195882DE00026D23 /* BULLDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3738B195882DE00026D23 /* BULLDeck.m */; };
+		2EE3738F1958836900026D23 /* BULLDealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3738E1958836900026D23 /* BULLDealer.m */; };
 		964058C11948CF24000954A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964058C01948CF24000954A1 /* main.m */; };
 		964058C41948CF24000954A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964058C31948CF24000954A1 /* AppDelegate.m */; };
 		964058C71948CF24000954A1 /* Bull_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 964058C51948CF24000954A1 /* Bull_Game.xcdatamodeld */; };
@@ -30,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EE3738A195882DE00026D23 /* BULLDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BULLDeck.h; sourceTree = "<group>"; };
+		2EE3738B195882DE00026D23 /* BULLDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BULLDeck.m; sourceTree = "<group>"; };
+		2EE3738D1958836900026D23 /* BULLDealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BULLDealer.h; sourceTree = "<group>"; };
+		2EE3738E1958836900026D23 /* BULLDealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BULLDealer.m; sourceTree = "<group>"; };
 		964058BB1948CF24000954A1 /* Bull_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bull_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		964058BF1948CF24000954A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		964058C01948CF24000954A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -156,6 +162,10 @@
 				964058E81948D0E5000954A1 /* BULLHand.m */,
 				964058EE1948D242000954A1 /* BULLCard.h */,
 				964058EF1948D242000954A1 /* BULLCard.m */,
+				2EE3738A195882DE00026D23 /* BULLDeck.h */,
+				2EE3738B195882DE00026D23 /* BULLDeck.m */,
+				2EE3738D1958836900026D23 /* BULLDealer.h */,
+				2EE3738E1958836900026D23 /* BULLDealer.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -259,12 +269,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE3738C195882DE00026D23 /* BULLDeck.m in Sources */,
 				964058C41948CF24000954A1 /* AppDelegate.m in Sources */,
 				964058E91948D0E5000954A1 /* BULLHand.m in Sources */,
 				964058C71948CF24000954A1 /* Bull_Game.xcdatamodeld in Sources */,
 				964058E61948D0CA000954A1 /* BULLPokerDataController.m in Sources */,
 				964058F01948D242000954A1 /* BULLCard.m in Sources */,
 				964058CA1948CF24000954A1 /* ViewController.m in Sources */,
+				2EE3738F1958836900026D23 /* BULLDealer.m in Sources */,
 				964058C11948CF24000954A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +464,7 @@
 				964058E01948CF24000954A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		964058E11948CF24000954A1 /* Build configuration list for PBXNativeTarget "Bull_GameTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +473,7 @@
 				964058E31948CF24000954A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
